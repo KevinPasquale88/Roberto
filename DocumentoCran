@@ -1,0 +1,36 @@
+public class CranDocument {
+
+	private int identifier;
+	private String title;
+	private String authors;
+	private String department;
+	private String abstracts;
+	
+	public CranDocument(int identifier, String title, String authors, String department, String abstracts){
+		this.identifier = identifier;
+		this.title = title;
+		this.authors = authors;
+		this.department = department;
+		this.abstracts = abstracts;
+	}
+
+	public int getIndentifier(){
+		return this.identifier;
+	}
+	
+	public String getTitle(){
+		return this.title;
+	}
+	
+	public String getAuthors(){
+		return this.authors;
+	}
+	
+	public String getDepartment(){
+		return this.department;
+	}
+	
+	public String getAbstracts(){
+		return this.abstracts;
+	}
+}
